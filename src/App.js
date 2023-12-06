@@ -31,7 +31,7 @@ const App = createReactClass({
         <Pagination
           itemsPerPage={10}
           totalItems={this.state.universities.length}
-          onPageChange={self.handleClick}  // исправил onPageChange для работы пагинации
+          onPageChange={self.handleClick} // исправил onPageChange для работы пагинации
         />
         <div>{this.state.color}</div>
       </div>
@@ -40,6 +40,5 @@ const App = createReactClass({
 });
 
 export { App };
-
 
 // все var'ы переписал на const

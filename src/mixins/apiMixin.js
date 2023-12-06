@@ -12,7 +12,7 @@ ApiMixinFactory.prototype.getApiMixin = function (httpClient) {
         value: "Russian Federation",
       };
     },
-    componentWillMount: function () {
+    componentDidMount: function () {
       this.apiClient = httpClient;
       this.search();
     },
